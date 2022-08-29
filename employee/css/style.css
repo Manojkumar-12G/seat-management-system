@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+/* emp container fluid */
+
+/* .wrap .container-fluid{
+  margin-top: 50px;
+} */
+.title{
+    background: #5e6764;
+    color: white;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color:white;
+}
+.table-responsive,.row{
+  padding:0.3%;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.sbutton {
+    padding: 3px;
+    background: #61676d;
+}
+div>.addrow{
+  margin-top: 20px;
+}
+.row .col-4{
+  padding-left: 0;
+}
+.pager{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+
+}
+.pager li{
+  border: 1px solid grey;
+  border-radius: 45%;
+  padding: 1%;
+  margin:0.01%;
+}
+/* .pager li:hover{
+  back-ground:black;
+} */
+.pager li a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+.pager li .active_link{
+  background: grey  !important;
+}
+
+
+/* user name validate message */
+
+.form-group .valid{
+    display:none;
+    margin-top:.25rem;
+    font-size:.875rem;
+    color:#dc3545;
+}
+
+.sent-message{
+    display:none;
+    margin-bottom:15px;
+    font-size:1rem;
+    color:#42916b;
+  }
+
+  .error{
+    color:red;
+    margin-bottom: 15px;
+  }
