@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+.sbutton {
+    padding: 3px;
+    background: #61676d;
+}
+.bhome {
+    color: #fff;
+    background-color: #b7471c;
+    border-color: #28a745;
+}
+.bhome:hover {
+  color:white;
+    background: #d51c60;
+}
+.table-responsive{
+  padding:0.3%;
+}
+
+div>.addrow{
+  margin-top: 20px;
+}
+/* .seatContainer{
+  margin-top: 50px;
+} */
+
+h1{
+      color: #7b7266;
+}
+
+
+.pagination{
+  justify-content: center;
+}
+
+.pagination li .active_link{
+  background: grey  !important;
+}
+.pagination li a{
+  text-decoration: none;
+  color:inherit;
+}
+
+/* tag manager or employee */
+/* #cmanager{
+  display: none;
+
+}
+#cemployee{
+  display: none;
+} */
+
+
+
+
+/*********Validations ********/
+
+
+.form-group .valid{
+    display:none;
+    margin-top:.25rem;
+    font-size:.875rem;
+    color:#dc3545;
+}
+
+.sent-message{
+    display:none;
+    margin-bottom:15px;
+    font-size:1rem;
+    color:#42916b;
+  }
+
+  .error{
+    color:red;
+    margin-bottom: 15px;
+  }
